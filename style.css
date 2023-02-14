@@ -1,0 +1,358 @@
+body, html {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#header-principal {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    
+}
+.headerb {
+    margin-left: 40px;
+
+}
+.headerd {
+    text-align: left;
+    
+}
+#blizardimg {
+    margin-right: 100px;
+    margin-left: 20px;
+
+}
+#butao1 {
+    margin-left: 350px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;
+
+}
+#butao2 {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    height: 42px;
+    width: 80px;
+    
+
+}
+#section {
+    background-image: url("painel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    width: 100%;
+    height: 700px;
+    
+
+}
+
+#mini-header {
+    background-color: white;
+    color: #394043;
+    width: 1225px;
+    height: 56px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    border-color: #394043;
+    border-style: solid;
+    
+}
+.minih {
+    padding: 18px;
+    cursor: pointer;
+ 
+}
+
+.minihb {
+    padding: 18px; 
+    cursor: pointer;
+}
+.c {
+    margin-left: 150px;
+}
+
+#compre {
+    background-color: #EF7D00;
+    color: white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 56px;
+    width: 135px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.d:hover,
+.minih:hover {
+    transform: scale(1.1);
+}
+.d,
+.minih {
+    transition: transform 0.3s;
+}
+
+#overimg {
+    margin-left: 100px;
+    width: 600px;
+    height: 350px;
+}
+#butao-over {
+    margin-left: -600px;
+    height: 65px;
+    width: 300px;
+    background-color: #EF7D00;
+    color: white;
+    transform: skew(-20deg);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    border: none;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+#butao-over:hover {
+    background-color: #0373BE;
+}
+#butao-over {
+    transition: 0.5s;
+}
+
+#plataformas {
+    
+    margin-left: 80px;
+}
+.plat {
+    padding: 20px;
+
+}
+#gif {
+    margin-left: 600px;
+    padding-bottom: 20px;
+}
+#box {
+    display: flex;
+
+}
+#syme {
+    height: 500px;
+    width: 50%;
+    background-image: linear-gradient(to right, white 70%, #91D7D5 30%);
+    
+}
+#over2 {
+    height: 500px;
+    width: 50%;
+    background-image: -webkit-linear-gradient(-30deg, #fff 60%, #F57D4C 40%);
+
+}
+#desc-syme {
+    width: 250px;
+    margin-left: 90px;
+    border-left: 4px solid #00AEFF;
+    padding-left: 10px;
+}
+#imgsyme {
+    height: 450px;
+    float: right;
+    margin-top: 50px;
+
+}
+#titulo-syme {
+    margin-top: 90px;
+    margin-left: 85px;
+    color: #002550;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+strong {
+    color: #00AEFF;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 5px;
+}
+#botao-syme {
+    background-color: #0373BE;
+    color: white;
+    height: 56px;
+    width: 220px;
+    margin-left: 100px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+    transform: skew(-20deg);
+    margin-top: 10px;
+}
+#botao-syme:hover {
+    background-color: #EF7D00;
+}
+#botao-syme {
+    transition: 0.5s;
+}
+#over2-logo {
+    height: 145px;
+
+}
+#over2-botao {
+    background-color: #EF7D00;
+    color: white;
+    height: 56px;
+    width: 220px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+    transform: skew(-20deg);
+    margin-top: 48px;
+    margin-left: 90px;
+}
+#over2-botao:hover {
+    background-color: #0373BE;
+}
+#over2-botao {
+    transition: 0.5s;
+}
+#over2-tit {
+    margin-top: 120px;
+    margin-left: 70px;
+}
+#zebuceta {
+    float: right;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+#desen {
+    margin-left: 20px;
+    color: #394043;
+
+}
+#btn-select {
+    background-color: #EF7D00;
+    color: white;
+    height: 56px;
+    width: 220px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+    transform: skew(-20deg);
+    float: right;
+    margin-right: 150px;
+}
+#selecione {
+    color: #002550;
+    margin-top: 100px;
+    margin-left: 120px;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+}
+.btn-classe {
+    background-color: #0373BE;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-left: 40px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+    transform: skew(-20deg);
+    margin-top: 10px;
+}
+#classe {
+    margin-left: 80px;
+    margin-top: 70px;
+}
+#box-herois {
+    width: 700px;
+    height: 450px;
+    margin-left: 110px;
+
+}
+.heros {
+    padding: 5px;
+    transition: 0.3s;
+}
+#box-hero {
+    background-color: #F4F5F5;
+    height: 400px;
+    width: 520px;
+    margin-left: 20px;
+    align-items: center;
+    text-align: center;
+    
+}
+#hero-principal {
+    display: flex;
+
+}
+#img-hero {
+    height: 500px;
+   
+    
+
+}
+.heros:hover {
+    transform: scale(1.1);
+
+}
+.f {
+    background-color: #838B8F;
+
+}
